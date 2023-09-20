@@ -1,0 +1,16 @@
+<%- include('includes/head.ejs', { title: 'Welcome' }) %>
+</head>
+<body>
+  <%- include('includes/header.ejs') %>
+  <main>
+    <h1>Welcome to this web page!</h1>
+    <h4>In this exercise I learned implementing authentication mechanisms through using sessions and cookies to control access for specific users.</h4>  
+
+    <p>Page <a href="/admin">/admin</a> should only be accessible if you're logged in.</p>
+    <p>The <a href="/">home page</a> should only be accessible, 
+      <a href="/signup">/signup</a> and <a href="/login">/login</a> 
+      should only be reachable (and visible in the navigation) if you're 
+      <strong>NOT</strong> logged in yet!</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,98 @@
+html {
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(40,55,62);
+}
+
+body {
+  margin: 0;
+  background-color: #EFEFEF ;
+}
+
+main {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+  text-align: center;
+}
+
+a {
+  color: #2E84F1;
+}
+
+a:hover,
+a:active {
+  color:rgb(186,209,242);
+}
+
+#main-header {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#main-header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-header li {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+}
+
+#main-header a {
+  text-decoration: none;
+  color: #A0EBE1;
+  
+}
+
+#main-header button {
+  font: inherit;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: #A0EBE1;
+  padding: 0;
+}
+
+#main-header a:hover,
+#main-header a:active,
+#main-header button:hover,
+#main-header button:active {
+  color: #2E84F1;
+}
+
+.btn {
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid white;
+  color: #A0EBE1;
+  padding: 0.5rem 1.5rem;
+  border-radius: 7px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: white;
+  border-color:rgb(213,213,213);
+}
+
+.btn.btn-alt {
+  background-color: transparent;
+  border: none;
+  color: #2E84F1;
+}
+
+.btn.btn-alt:hover,
+.btn.btn-alt:active {
+  background-color:rgb(186,209,241)
+}
